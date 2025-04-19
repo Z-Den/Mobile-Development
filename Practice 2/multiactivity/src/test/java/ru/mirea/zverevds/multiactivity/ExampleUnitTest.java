@@ -1,4 +1,4 @@
-package ru.mirea.zverevds.multyactivity;
+package ru.mirea.zverevds.multiactivity;
 
 import org.junit.Test;
 

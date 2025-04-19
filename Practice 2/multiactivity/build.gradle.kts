@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace = "ru.mirea.zverevds.multyactivity"
+    namespace = "ru.mirea.zverevds.multiactivity"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "ru.mirea.zverevds.multyactivity"
+        applicationId = "ru.mirea.zverevds.multiactivity"
         minSdk = 26
         targetSdk = 35
         versionCode = 1

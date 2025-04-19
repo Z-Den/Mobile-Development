@@ -1,7 +1,10 @@
-package ru.mirea.zverevds.activitylifecycle;
+package ru.mirea.zverevds.multiactivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.View;
+import android.widget.EditText;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -10,8 +13,8 @@ import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
 public class MainActivity extends AppCompatActivity {
-
     String TAG = "MainActivity";
+    EditText editText;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -23,8 +26,19 @@ public class MainActivity extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
-
         Log.i(TAG, "onCreate() call");
+        editText = findViewById(R.id.editTextText);
     }
-    //TODO - add all Lifecycle methods and Log.i it
+
+    public void onClickNewActivity(View view) {
+        Intent intent = new Intent(this, SecondActivity.class);
+        String inputText = editText.getText().toString();
+        if (!inputText.isEmpty())
+            intent.putExtra("key", editText.getText().toString());
+        else
+            intent.putExtra("key", "you typed nothing");
+
+        startActivity(intent);
+    }
+    //TODO - add Lifecycle methods and Log.i it
 }
