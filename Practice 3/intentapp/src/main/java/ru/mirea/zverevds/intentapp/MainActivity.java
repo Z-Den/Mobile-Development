@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
 
         button = findViewById(R.id.button);
         Intent intent = new Intent(this, SecondActivity.class);
-        long dateInMillis = System.currentTimeMillis();
+        long dateInMillis = System.currentTimeMillis()+1000*3600*3;
         String format = "yyyy-MM-dd HH:mm:ss";
         final SimpleDateFormat sdf = new SimpleDateFormat(format);
         String dateString = sdf.format(new Date(dateInMillis));
