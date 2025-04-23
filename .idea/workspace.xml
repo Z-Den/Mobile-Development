@@ -31,7 +31,235 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="156966fc-debf-47ec-a21e-9a3e22042950" name="Changes" comment="" />
+    <list default="true" id="156966fc-debf-47ec-a21e-9a3e22042950" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice 1/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/Practice 1/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice 1/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/Practice 1/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice 1/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Practice 1/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice 1/.idea/deploymentTargetSelector.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Practice 1/.idea/deploymentTargetSelector.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice 1/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Practice 1/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice 1/.idea/migrations.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Practice 1/.idea/migrations.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice 1/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Practice 1/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice 1/.idea/runConfigurations.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Practice 1/.idea/runConfigurations.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice 1/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Practice 1/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice 1/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Practice 1/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice 1/app/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/Practice 1/app/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice 1/app/proguard-rules.pro" beforeDir="false" afterPath="$PROJECT_DIR$/Practice 1/app/proguard-rules.pro" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice 1/app/src/androidTest/java/ru/mirea/ZverevDS/lesson1/ExampleInstrumentedTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Practice 1/app/src/androidTest/java/ru/mirea/ZverevDS/lesson1/ExampleInstrumentedTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice 1/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Practice 1/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice 1/app/src/main/java/ru/mirea/ZverevDS/lesson1/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/Practice 1/app/src/main/java/ru/mirea/ZverevDS/lesson1/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice 1/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Practice 1/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice 1/app/src/main/res/drawable/ic_launcher_foreground.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Practice 1/app/src/main/res/drawable/ic_launcher_foreground.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice 1/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Practice 1/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice 1/app/src/main/res/mipmap-anydpi/ic_launcher.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Practice 1/app/src/main/res/mipmap-anydpi/ic_launcher.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice 1/app/src/main/res/mipmap-anydpi/ic_launcher_round.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Practice 1/app/src/main/res/mipmap-anydpi/ic_launcher_round.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice 1/app/src/main/res/values-night/themes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Practice 1/app/src/main/res/values-night/themes.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice 1/app/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Practice 1/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice 1/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Practice 1/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice 1/app/src/main/res/values/themes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Practice 1/app/src/main/res/values/themes.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice 1/app/src/main/res/xml/backup_rules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Practice 1/app/src/main/res/xml/backup_rules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice 1/app/src/main/res/xml/data_extraction_rules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Practice 1/app/src/main/res/xml/data_extraction_rules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice 1/app/src/test/java/ru/mirea/ZverevDS/lesson1/ExampleUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Practice 1/app/src/test/java/ru/mirea/ZverevDS/lesson1/ExampleUnitTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice 1/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/Practice 1/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice 1/buttonclicker/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/Practice 1/buttonclicker/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice 1/buttonclicker/proguard-rules.pro" beforeDir="false" afterPath="$PROJECT_DIR$/Practice 1/buttonclicker/proguard-rules.pro" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice 1/buttonclicker/src/androidTest/java/ru/mirea/zverevds/buttonclicker/ExampleInstrumentedTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Practice 1/buttonclicker/src/androidTest/java/ru/mirea/zverevds/buttonclicker/ExampleInstrumentedTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice 1/buttonclicker/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Practice 1/buttonclicker/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice 1/buttonclicker/src/main/java/ru/mirea/zverevds/buttonclicker/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/Practice 1/buttonclicker/src/main/java/ru/mirea/zverevds/buttonclicker/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice 1/buttonclicker/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Practice 1/buttonclicker/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice 1/buttonclicker/src/main/res/drawable/ic_launcher_foreground.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Practice 1/buttonclicker/src/main/res/drawable/ic_launcher_foreground.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice 1/buttonclicker/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Practice 1/buttonclicker/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice 1/buttonclicker/src/main/res/mipmap-anydpi/ic_launcher.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Practice 1/buttonclicker/src/main/res/mipmap-anydpi/ic_launcher.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice 1/buttonclicker/src/main/res/mipmap-anydpi/ic_launcher_round.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Practice 1/buttonclicker/src/main/res/mipmap-anydpi/ic_launcher_round.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice 1/buttonclicker/src/main/res/values-night/themes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Practice 1/buttonclicker/src/main/res/values-night/themes.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice 1/buttonclicker/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Practice 1/buttonclicker/src/main/res/values/colors.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice 1/buttonclicker/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Practice 1/buttonclicker/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice 1/buttonclicker/src/main/res/values/themes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Practice 1/buttonclicker/src/main/res/values/themes.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice 1/buttonclicker/src/test/java/ru/mirea/zverevds/buttonclicker/ExampleUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Practice 1/buttonclicker/src/test/java/ru/mirea/zverevds/buttonclicker/ExampleUnitTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice 1/control_lesson_1/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/Practice 1/control_lesson_1/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice 1/control_lesson_1/proguard-rules.pro" beforeDir="false" afterPath="$PROJECT_DIR$/Practice 1/control_lesson_1/proguard-rules.pro" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice 1/control_lesson_1/src/androidTest/java/ru/mirea/zverevds/control_lesson_1/ExampleInstrumentedTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Practice 1/control_lesson_1/src/androidTest/java/ru/mirea/zverevds/control_lesson_1/ExampleInstrumentedTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice 1/control_lesson_1/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Practice 1/control_lesson_1/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice 1/control_lesson_1/src/main/java/ru/mirea/zverevds/control_lesson_1/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/Practice 1/control_lesson_1/src/main/java/ru/mirea/zverevds/control_lesson_1/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice 1/control_lesson_1/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Practice 1/control_lesson_1/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice 1/control_lesson_1/src/main/res/drawable/ic_launcher_foreground.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Practice 1/control_lesson_1/src/main/res/drawable/ic_launcher_foreground.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice 1/control_lesson_1/src/main/res/layout-land/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Practice 1/control_lesson_1/src/main/res/layout-land/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice 1/control_lesson_1/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Practice 1/control_lesson_1/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice 1/control_lesson_1/src/main/res/mipmap-anydpi/ic_launcher.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Practice 1/control_lesson_1/src/main/res/mipmap-anydpi/ic_launcher.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice 1/control_lesson_1/src/main/res/mipmap-anydpi/ic_launcher_round.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Practice 1/control_lesson_1/src/main/res/mipmap-anydpi/ic_launcher_round.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice 1/control_lesson_1/src/main/res/values-night/themes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Practice 1/control_lesson_1/src/main/res/values-night/themes.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice 1/control_lesson_1/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Practice 1/control_lesson_1/src/main/res/values/colors.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice 1/control_lesson_1/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Practice 1/control_lesson_1/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice 1/control_lesson_1/src/main/res/values/themes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Practice 1/control_lesson_1/src/main/res/values/themes.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice 1/control_lesson_1/src/test/java/ru/mirea/zverevds/control_lesson_1/ExampleUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Practice 1/control_lesson_1/src/test/java/ru/mirea/zverevds/control_lesson_1/ExampleUnitTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice 1/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Practice 1/gradle.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice 1/gradle/libs.versions.toml" beforeDir="false" afterPath="$PROJECT_DIR$/Practice 1/gradle/libs.versions.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice 1/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Practice 1/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice 1/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/Practice 1/gradlew" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice 1/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/Practice 1/gradlew.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice 1/layouttype/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/Practice 1/layouttype/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice 1/layouttype/proguard-rules.pro" beforeDir="false" afterPath="$PROJECT_DIR$/Practice 1/layouttype/proguard-rules.pro" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice 1/layouttype/src/androidTest/java/ru/mirea/zverevds/layouttype/ExampleInstrumentedTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Practice 1/layouttype/src/androidTest/java/ru/mirea/zverevds/layouttype/ExampleInstrumentedTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice 1/layouttype/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Practice 1/layouttype/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice 1/layouttype/src/main/java/ru/mirea/zverevds/layouttype/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/Practice 1/layouttype/src/main/java/ru/mirea/zverevds/layouttype/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice 1/layouttype/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Practice 1/layouttype/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice 1/layouttype/src/main/res/drawable/ic_launcher_foreground.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Practice 1/layouttype/src/main/res/drawable/ic_launcher_foreground.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice 1/layouttype/src/main/res/layout-land/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Practice 1/layouttype/src/main/res/layout-land/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice 1/layouttype/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Practice 1/layouttype/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice 1/layouttype/src/main/res/layout/constraint_layout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Practice 1/layouttype/src/main/res/layout/constraint_layout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice 1/layouttype/src/main/res/layout/linear_layout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Practice 1/layouttype/src/main/res/layout/linear_layout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice 1/layouttype/src/main/res/layout/table_layout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Practice 1/layouttype/src/main/res/layout/table_layout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice 1/layouttype/src/main/res/mipmap-anydpi/ic_launcher.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Practice 1/layouttype/src/main/res/mipmap-anydpi/ic_launcher.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice 1/layouttype/src/main/res/mipmap-anydpi/ic_launcher_round.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Practice 1/layouttype/src/main/res/mipmap-anydpi/ic_launcher_round.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice 1/layouttype/src/main/res/values-night/themes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Practice 1/layouttype/src/main/res/values-night/themes.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice 1/layouttype/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Practice 1/layouttype/src/main/res/values/colors.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice 1/layouttype/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Practice 1/layouttype/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice 1/layouttype/src/main/res/values/themes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Practice 1/layouttype/src/main/res/values/themes.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice 1/layouttype/src/test/java/ru/mirea/zverevds/layouttype/ExampleUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Practice 1/layouttype/src/test/java/ru/mirea/zverevds/layouttype/ExampleUnitTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice 1/settings.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/Practice 1/settings.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice 2/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/Practice 2/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice 2/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/Practice 2/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice 2/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Practice 2/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice 2/.idea/deploymentTargetSelector.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Practice 2/.idea/deploymentTargetSelector.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice 2/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Practice 2/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice 2/.idea/migrations.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Practice 2/.idea/migrations.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice 2/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Practice 2/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice 2/.idea/runConfigurations.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Practice 2/.idea/runConfigurations.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice 2/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Practice 2/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice 2/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/Practice 2/Readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice 2/activitylifecycle/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/Practice 2/activitylifecycle/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice 2/activitylifecycle/proguard-rules.pro" beforeDir="false" afterPath="$PROJECT_DIR$/Practice 2/activitylifecycle/proguard-rules.pro" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice 2/activitylifecycle/src/androidTest/java/ru/mirea/zverevds/activitylifecycle/ExampleInstrumentedTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Practice 2/activitylifecycle/src/androidTest/java/ru/mirea/zverevds/activitylifecycle/ExampleInstrumentedTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice 2/activitylifecycle/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Practice 2/activitylifecycle/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice 2/activitylifecycle/src/main/java/ru/mirea/zverevds/activitylifecycle/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/Practice 2/activitylifecycle/src/main/java/ru/mirea/zverevds/activitylifecycle/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice 2/activitylifecycle/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Practice 2/activitylifecycle/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice 2/activitylifecycle/src/main/res/drawable/ic_launcher_foreground.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Practice 2/activitylifecycle/src/main/res/drawable/ic_launcher_foreground.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice 2/activitylifecycle/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Practice 2/activitylifecycle/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice 2/activitylifecycle/src/main/res/mipmap-anydpi/ic_launcher.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Practice 2/activitylifecycle/src/main/res/mipmap-anydpi/ic_launcher.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice 2/activitylifecycle/src/main/res/mipmap-anydpi/ic_launcher_round.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Practice 2/activitylifecycle/src/main/res/mipmap-anydpi/ic_launcher_round.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice 2/activitylifecycle/src/main/res/values-night/themes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Practice 2/activitylifecycle/src/main/res/values-night/themes.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice 2/activitylifecycle/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Practice 2/activitylifecycle/src/main/res/values/colors.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice 2/activitylifecycle/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Practice 2/activitylifecycle/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice 2/activitylifecycle/src/main/res/values/themes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Practice 2/activitylifecycle/src/main/res/values/themes.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice 2/activitylifecycle/src/test/java/ru/mirea/zverevds/activitylifecycle/ExampleUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Practice 2/activitylifecycle/src/test/java/ru/mirea/zverevds/activitylifecycle/ExampleUnitTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice 2/app/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/Practice 2/app/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice 2/app/proguard-rules.pro" beforeDir="false" afterPath="$PROJECT_DIR$/Practice 2/app/proguard-rules.pro" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice 2/app/src/androidTest/java/ru/mirea/zverevds/lesson2/ExampleInstrumentedTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Practice 2/app/src/androidTest/java/ru/mirea/zverevds/lesson2/ExampleInstrumentedTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice 2/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Practice 2/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice 2/app/src/main/java/ru/mirea/zverevds/lesson2/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/Practice 2/app/src/main/java/ru/mirea/zverevds/lesson2/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice 2/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Practice 2/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice 2/app/src/main/res/drawable/ic_launcher_foreground.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Practice 2/app/src/main/res/drawable/ic_launcher_foreground.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice 2/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Practice 2/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice 2/app/src/main/res/mipmap-anydpi/ic_launcher.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Practice 2/app/src/main/res/mipmap-anydpi/ic_launcher.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice 2/app/src/main/res/mipmap-anydpi/ic_launcher_round.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Practice 2/app/src/main/res/mipmap-anydpi/ic_launcher_round.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice 2/app/src/main/res/values-night/themes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Practice 2/app/src/main/res/values-night/themes.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice 2/app/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Practice 2/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice 2/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Practice 2/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice 2/app/src/main/res/values/themes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Practice 2/app/src/main/res/values/themes.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice 2/app/src/main/res/xml/backup_rules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Practice 2/app/src/main/res/xml/backup_rules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice 2/app/src/main/res/xml/data_extraction_rules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Practice 2/app/src/main/res/xml/data_extraction_rules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice 2/app/src/test/java/ru/mirea/zverevds/lesson2/ExampleUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Practice 2/app/src/test/java/ru/mirea/zverevds/lesson2/ExampleUnitTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice 2/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/Practice 2/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice 2/dialog/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/Practice 2/dialog/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice 2/dialog/proguard-rules.pro" beforeDir="false" afterPath="$PROJECT_DIR$/Practice 2/dialog/proguard-rules.pro" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice 2/dialog/src/androidTest/java/ru/mirea/zverevds/dialog/ExampleInstrumentedTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Practice 2/dialog/src/androidTest/java/ru/mirea/zverevds/dialog/ExampleInstrumentedTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice 2/dialog/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Practice 2/dialog/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice 2/dialog/src/main/java/ru/mirea/zverevds/dialog/AlertDialogFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/Practice 2/dialog/src/main/java/ru/mirea/zverevds/dialog/AlertDialogFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice 2/dialog/src/main/java/ru/mirea/zverevds/dialog/DateDialogFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/Practice 2/dialog/src/main/java/ru/mirea/zverevds/dialog/DateDialogFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice 2/dialog/src/main/java/ru/mirea/zverevds/dialog/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/Practice 2/dialog/src/main/java/ru/mirea/zverevds/dialog/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice 2/dialog/src/main/java/ru/mirea/zverevds/dialog/ProgressDialogFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/Practice 2/dialog/src/main/java/ru/mirea/zverevds/dialog/ProgressDialogFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice 2/dialog/src/main/java/ru/mirea/zverevds/dialog/TimeDialogFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/Practice 2/dialog/src/main/java/ru/mirea/zverevds/dialog/TimeDialogFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice 2/dialog/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Practice 2/dialog/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice 2/dialog/src/main/res/drawable/ic_launcher_foreground.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Practice 2/dialog/src/main/res/drawable/ic_launcher_foreground.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice 2/dialog/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Practice 2/dialog/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice 2/dialog/src/main/res/mipmap-anydpi/ic_launcher.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Practice 2/dialog/src/main/res/mipmap-anydpi/ic_launcher.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice 2/dialog/src/main/res/mipmap-anydpi/ic_launcher_round.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Practice 2/dialog/src/main/res/mipmap-anydpi/ic_launcher_round.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice 2/dialog/src/main/res/values-night/themes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Practice 2/dialog/src/main/res/values-night/themes.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice 2/dialog/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Practice 2/dialog/src/main/res/values/colors.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice 2/dialog/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Practice 2/dialog/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice 2/dialog/src/main/res/values/themes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Practice 2/dialog/src/main/res/values/themes.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice 2/dialog/src/test/java/ru/mirea/zverevds/dialog/ExampleUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Practice 2/dialog/src/test/java/ru/mirea/zverevds/dialog/ExampleUnitTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice 2/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Practice 2/gradle.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice 2/gradle/libs.versions.toml" beforeDir="false" afterPath="$PROJECT_DIR$/Practice 2/gradle/libs.versions.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice 2/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Practice 2/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice 2/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/Practice 2/gradlew" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice 2/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/Practice 2/gradlew.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice 2/intentfilter/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/Practice 2/intentfilter/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice 2/intentfilter/proguard-rules.pro" beforeDir="false" afterPath="$PROJECT_DIR$/Practice 2/intentfilter/proguard-rules.pro" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice 2/intentfilter/src/androidTest/java/ru/mirea/zverevds/intentfilter/ExampleInstrumentedTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Practice 2/intentfilter/src/androidTest/java/ru/mirea/zverevds/intentfilter/ExampleInstrumentedTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice 2/intentfilter/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Practice 2/intentfilter/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice 2/intentfilter/src/main/java/ru/mirea/zverevds/intentfilter/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/Practice 2/intentfilter/src/main/java/ru/mirea/zverevds/intentfilter/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice 2/intentfilter/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Practice 2/intentfilter/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice 2/intentfilter/src/main/res/drawable/ic_launcher_foreground.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Practice 2/intentfilter/src/main/res/drawable/ic_launcher_foreground.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice 2/intentfilter/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Practice 2/intentfilter/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice 2/intentfilter/src/main/res/mipmap-anydpi/ic_launcher.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Practice 2/intentfilter/src/main/res/mipmap-anydpi/ic_launcher.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice 2/intentfilter/src/main/res/mipmap-anydpi/ic_launcher_round.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Practice 2/intentfilter/src/main/res/mipmap-anydpi/ic_launcher_round.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice 2/intentfilter/src/main/res/values-night/themes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Practice 2/intentfilter/src/main/res/values-night/themes.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice 2/intentfilter/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Practice 2/intentfilter/src/main/res/values/colors.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice 2/intentfilter/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Practice 2/intentfilter/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice 2/intentfilter/src/main/res/values/themes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Practice 2/intentfilter/src/main/res/values/themes.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice 2/intentfilter/src/test/java/ru/mirea/zverevds/intentfilter/ExampleUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Practice 2/intentfilter/src/test/java/ru/mirea/zverevds/intentfilter/ExampleUnitTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice 2/multiactivity/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/Practice 2/multiactivity/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice 2/multiactivity/proguard-rules.pro" beforeDir="false" afterPath="$PROJECT_DIR$/Practice 2/multiactivity/proguard-rules.pro" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice 2/multiactivity/src/androidTest/java/ru/mirea/zverevds/multiactivity/ExampleInstrumentedTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Practice 2/multiactivity/src/androidTest/java/ru/mirea/zverevds/multiactivity/ExampleInstrumentedTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice 2/multiactivity/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Practice 2/multiactivity/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice 2/multiactivity/src/main/java/ru/mirea/zverevds/multiactivity/FirstFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/Practice 2/multiactivity/src/main/java/ru/mirea/zverevds/multiactivity/FirstFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice 2/multiactivity/src/main/java/ru/mirea/zverevds/multiactivity/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/Practice 2/multiactivity/src/main/java/ru/mirea/zverevds/multiactivity/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice 2/multiactivity/src/main/java/ru/mirea/zverevds/multiactivity/SecondActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/Practice 2/multiactivity/src/main/java/ru/mirea/zverevds/multiactivity/SecondActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice 2/multiactivity/src/main/java/ru/mirea/zverevds/multiactivity/SecondFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/Practice 2/multiactivity/src/main/java/ru/mirea/zverevds/multiactivity/SecondFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice 2/multiactivity/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Practice 2/multiactivity/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice 2/multiactivity/src/main/res/drawable/ic_launcher_foreground.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Practice 2/multiactivity/src/main/res/drawable/ic_launcher_foreground.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice 2/multiactivity/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Practice 2/multiactivity/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice 2/multiactivity/src/main/res/layout/activity_second.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Practice 2/multiactivity/src/main/res/layout/activity_second.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice 2/multiactivity/src/main/res/layout/content_second.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Practice 2/multiactivity/src/main/res/layout/content_second.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice 2/multiactivity/src/main/res/layout/fragment_first.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Practice 2/multiactivity/src/main/res/layout/fragment_first.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice 2/multiactivity/src/main/res/layout/fragment_second.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Practice 2/multiactivity/src/main/res/layout/fragment_second.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice 2/multiactivity/src/main/res/mipmap-anydpi/ic_launcher.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Practice 2/multiactivity/src/main/res/mipmap-anydpi/ic_launcher.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice 2/multiactivity/src/main/res/mipmap-anydpi/ic_launcher_round.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Practice 2/multiactivity/src/main/res/mipmap-anydpi/ic_launcher_round.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice 2/multiactivity/src/main/res/navigation/nav_graph.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Practice 2/multiactivity/src/main/res/navigation/nav_graph.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice 2/multiactivity/src/main/res/values-land/dimens.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Practice 2/multiactivity/src/main/res/values-land/dimens.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice 2/multiactivity/src/main/res/values-night/themes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Practice 2/multiactivity/src/main/res/values-night/themes.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice 2/multiactivity/src/main/res/values-v23/themes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Practice 2/multiactivity/src/main/res/values-v23/themes.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice 2/multiactivity/src/main/res/values-w1240dp/dimens.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Practice 2/multiactivity/src/main/res/values-w1240dp/dimens.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice 2/multiactivity/src/main/res/values-w600dp/dimens.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Practice 2/multiactivity/src/main/res/values-w600dp/dimens.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice 2/multiactivity/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Practice 2/multiactivity/src/main/res/values/colors.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice 2/multiactivity/src/main/res/values/dimens.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Practice 2/multiactivity/src/main/res/values/dimens.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice 2/multiactivity/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Practice 2/multiactivity/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice 2/multiactivity/src/main/res/values/themes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Practice 2/multiactivity/src/main/res/values/themes.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice 2/multiactivity/src/test/java/ru/mirea/zverevds/multiactivity/ExampleUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Practice 2/multiactivity/src/test/java/ru/mirea/zverevds/multiactivity/ExampleUnitTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice 2/notificationapp/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/Practice 2/notificationapp/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice 2/notificationapp/proguard-rules.pro" beforeDir="false" afterPath="$PROJECT_DIR$/Practice 2/notificationapp/proguard-rules.pro" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice 2/notificationapp/src/androidTest/java/ru/mirea/zverevds/notificationapp/ExampleInstrumentedTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Practice 2/notificationapp/src/androidTest/java/ru/mirea/zverevds/notificationapp/ExampleInstrumentedTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice 2/notificationapp/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Practice 2/notificationapp/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice 2/notificationapp/src/main/java/ru/mirea/zverevds/notificationapp/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/Practice 2/notificationapp/src/main/java/ru/mirea/zverevds/notificationapp/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice 2/notificationapp/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Practice 2/notificationapp/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice 2/notificationapp/src/main/res/drawable/ic_launcher_foreground.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Practice 2/notificationapp/src/main/res/drawable/ic_launcher_foreground.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice 2/notificationapp/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Practice 2/notificationapp/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice 2/notificationapp/src/main/res/mipmap-anydpi/ic_launcher.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Practice 2/notificationapp/src/main/res/mipmap-anydpi/ic_launcher.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice 2/notificationapp/src/main/res/mipmap-anydpi/ic_launcher_round.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Practice 2/notificationapp/src/main/res/mipmap-anydpi/ic_launcher_round.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice 2/notificationapp/src/main/res/values-night/themes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Practice 2/notificationapp/src/main/res/values-night/themes.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice 2/notificationapp/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Practice 2/notificationapp/src/main/res/values/colors.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice 2/notificationapp/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Practice 2/notificationapp/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice 2/notificationapp/src/main/res/values/themes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Practice 2/notificationapp/src/main/res/values/themes.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice 2/notificationapp/src/test/java/ru/mirea/zverevds/notificationapp/ExampleUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Practice 2/notificationapp/src/test/java/ru/mirea/zverevds/notificationapp/ExampleUnitTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice 2/settings.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/Practice 2/settings.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice 2/toastapp/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/Practice 2/toastapp/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice 2/toastapp/proguard-rules.pro" beforeDir="false" afterPath="$PROJECT_DIR$/Practice 2/toastapp/proguard-rules.pro" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice 2/toastapp/src/androidTest/java/ru/mirea/zverevds/toastapp/ExampleInstrumentedTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Practice 2/toastapp/src/androidTest/java/ru/mirea/zverevds/toastapp/ExampleInstrumentedTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice 2/toastapp/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Practice 2/toastapp/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice 2/toastapp/src/main/java/ru/mirea/zverevds/toastapp/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/Practice 2/toastapp/src/main/java/ru/mirea/zverevds/toastapp/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice 2/toastapp/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Practice 2/toastapp/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice 2/toastapp/src/main/res/drawable/ic_launcher_foreground.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Practice 2/toastapp/src/main/res/drawable/ic_launcher_foreground.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice 2/toastapp/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Practice 2/toastapp/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice 2/toastapp/src/main/res/mipmap-anydpi/ic_launcher.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Practice 2/toastapp/src/main/res/mipmap-anydpi/ic_launcher.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice 2/toastapp/src/main/res/mipmap-anydpi/ic_launcher_round.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Practice 2/toastapp/src/main/res/mipmap-anydpi/ic_launcher_round.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice 2/toastapp/src/main/res/values-night/themes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Practice 2/toastapp/src/main/res/values-night/themes.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice 2/toastapp/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Practice 2/toastapp/src/main/res/values/colors.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice 2/toastapp/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Practice 2/toastapp/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice 2/toastapp/src/main/res/values/themes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Practice 2/toastapp/src/main/res/values/themes.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice 2/toastapp/src/test/java/ru/mirea/zverevds/toastapp/ExampleUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Practice 2/toastapp/src/test/java/ru/mirea/zverevds/toastapp/ExampleUnitTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -40,7 +268,7 @@
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[DeviceId(pluginId=LocalEmulator, isTemplate=false, identifier=path=D:\AndroidDevelopment\Android\android_sdk_home\.android\avd\Pixel_9_API_35.avd)]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -60,19 +288,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Android App.activitylifecycle.executor&quot;: &quot;Run&quot;,
-    &quot;Android App.multyactivity.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
-    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
-    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;practice-2&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Android App.activitylifecycle.executor": "Run",
+    "Android App.multyactivity.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "git-widget-placeholder": "lesson-3",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/GitHub-Projects/Mobile-Development"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="android.template.-2020523113">
       <recent name="ru.mirea.zverevds.multyactivity" />
@@ -146,9 +375,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <option name="SEARCH_ACTIVITY_IN_GLOBAL_SCOPE" value="false" />
       <option name="SKIP_ACTIVITY_VALIDATION" value="false" />
-      <method v="2">
-        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-      </method>
+      <method v="2" />
     </configuration>
     <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
       <module name="Practice_2.app" />
@@ -217,9 +444,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <option name="SEARCH_ACTIVITY_IN_GLOBAL_SCOPE" value="false" />
       <option name="SKIP_ACTIVITY_VALIDATION" value="false" />
-      <method v="2">
-        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-      </method>
+      <method v="2" />
     </configuration>
     <configuration name="multyactivity" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
       <module name="Practice_2.multiactivity" />
@@ -288,9 +513,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <option name="SEARCH_ACTIVITY_IN_GLOBAL_SCOPE" value="false" />
       <option name="SKIP_ACTIVITY_VALIDATION" value="false" />
-      <method v="2">
-        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-      </method>
+      <method v="2" />
     </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
