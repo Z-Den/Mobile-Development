@@ -22,3 +22,4 @@ dependencyResolutionManagement {
 rootProject.name = "Practice 3"
 include(":app")
 include(":intentapp")
+include(":favoritebook")
