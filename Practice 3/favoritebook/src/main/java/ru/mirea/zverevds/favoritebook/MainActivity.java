@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
     private ActivityResultLauncher<Intent> activityResultLauncher;
     static final String BOOK_NAME_KEY = "book_name";
     static final String QUOTES_KEY = "quotes_name";
-    static final String USER_MESSAGE="MESSAGE";
+    static final String USER_MESSAGE = "MESSAGE";
     private TextView textViewUserBook;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -45,8 +45,8 @@ public class MainActivity extends AppCompatActivity {
     }
     public void getInfoAboutBook(View view) {
         Intent intent = new Intent(this, SharedActivity.class);
-        intent.putExtra(BOOK_NAME_KEY, "какая-то книга");
-        intent.putExtra(QUOTES_KEY, "какая-то цитата");
+        intent.putExtra(BOOK_NAME_KEY, "Книга разработчика"); //?
+        intent.putExtra(QUOTES_KEY, "ООП - это когда поставил точку, и понеслось."); //?
         activityResultLauncher.launch(intent);
     }
 }
