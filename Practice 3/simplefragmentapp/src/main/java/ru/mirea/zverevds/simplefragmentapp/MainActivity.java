@@ -29,19 +29,23 @@ public class MainActivity extends AppCompatActivity {
         fragment1 = new FirstFragment();
         fragment2 = new SecondFragment();
         FragmentManager fragmentManager = getSupportFragmentManager();
-        Button btnFirstFragment = (Button) findViewById(R.id.btnFirstFragment);
-        btnFirstFragment.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View v) {
-                fragmentManager.beginTransaction().replace(R.id.fragmentContainerView,
-                        fragment1).commit();
-            }
-        });
-        Button btnSecondFragment = (Button) findViewById(R.id.btnSecondFragment);
-        btnSecondFragment.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View v) {
-                fragmentManager.beginTransaction().replace(R.id.fragmentContainerView,
-                        fragment2).commit();
-            }
-        });
+        try {
+            Button btnFirstFragment = (Button) findViewById(R.id.btnFirstFragment);
+            btnFirstFragment.setOnClickListener(new View.OnClickListener() {
+                public void onClick(View v) {
+                    fragmentManager.beginTransaction().replace(R.id.fragmentContainerView,
+                            fragment1).commit();
+                }
+            });
+            Button btnSecondFragment = (Button) findViewById(R.id.btnSecondFragment);
+            btnSecondFragment.setOnClickListener(new View.OnClickListener() {
+                public void onClick(View v) {
+                    fragmentManager.beginTransaction().replace(R.id.fragmentContainerView,
+                            fragment2).commit();
+                }
+            });
+        } catch (Exception e) {
+
+        }
     }
 }

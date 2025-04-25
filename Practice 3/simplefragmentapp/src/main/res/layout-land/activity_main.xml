@@ -5,20 +5,25 @@
     android:id="@+id/main"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent">
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="horizontal">
-        <fragment android:name="ru.mirea.zverevds.simplefragmentapp.FirstFragment"
-            android:id="@+id/list"
+
+        <androidx.fragment.app.FragmentContainerView android:name="ru.mirea.zverevds.simplefragmentapp.FirstFragment"
+            android:id="@+id/first"
             android:layout_weight="1"
             android:layout_width="0dp"
-            android:layout_height="match_parent" />
-        <fragment android:name="ru.mirea.zverevds.simplefragmentapp.SecondFragment"
-            android:id="@+id/viewer"
+            android:layout_height="match_parent"
+            tools:layout="@layout/fragment_first" />
+        <androidx.fragment.app.FragmentContainerView android:name="ru.mirea.zverevds.simplefragmentapp.SecondFragment"
+            android:id="@+id/second"
             android:layout_weight="2"
             android:layout_width="0dp"
-            android:layout_height="match_parent" />
+            android:layout_height="match_parent"
+            tools:layout="@layout/fragment_second" />
+
     </LinearLayout>
 </LinearLayout>
 
