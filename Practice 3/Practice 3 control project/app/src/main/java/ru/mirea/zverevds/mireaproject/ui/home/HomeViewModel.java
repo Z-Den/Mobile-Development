@@ -6,14 +6,20 @@ import androidx.lifecycle.ViewModel;
 
 public class HomeViewModel extends ViewModel {
 
-    private final MutableLiveData<String> mText;
+    private final MutableLiveData<String> greetingText;
+    private final MutableLiveData<String> ownerText;
 
     public HomeViewModel() {
-        mText = new MutableLiveData<>();
-        mText.setValue("This is home fragment");
+        greetingText = new MutableLiveData<>();
+        ownerText = new MutableLiveData<>();
+        greetingText.setValue("Добро пожаловать на домашнюю страницу приложения!");
+        ownerText.setValue("Выполнил:\n" +
+                "студент группы БСБО-07-22\n" +
+                "Денис Зверев (№6)");
     }
 
-    public LiveData<String> getText() {
-        return mText;
+    public LiveData<String> getGreetingText() {
+        return greetingText;
     }
+    public LiveData<String> getOwnerText() { return ownerText; }
 }

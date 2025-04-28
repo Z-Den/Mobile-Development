@@ -1,4 +1,4 @@
-package ru.mirea.zverevds.mireaproject.ui.gallery;
+package ru.mirea.zverevds.mireaproject.ui.data;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -10,22 +10,22 @@ import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.lifecycle.ViewModelProvider;
 
-import ru.mirea.zverevds.mireaproject.databinding.FragmentGalleryBinding;
+import ru.mirea.zverevds.mireaproject.databinding.FragmentDataBinding;
 
-public class GalleryFragment extends Fragment {
+public class DataFragment extends Fragment {
 
-    private FragmentGalleryBinding binding;
+    private FragmentDataBinding binding;
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
-        GalleryViewModel galleryViewModel =
-                new ViewModelProvider(this).get(GalleryViewModel.class);
+        DataViewModel dataViewModel =
+                new ViewModelProvider(this).get(DataViewModel.class);
 
-        binding = FragmentGalleryBinding.inflate(inflater, container, false);
+        binding = FragmentDataBinding.inflate(inflater, container, false);
         View root = binding.getRoot();
 
-        final TextView textView = binding.textGallery;
-        galleryViewModel.getText().observe(getViewLifecycleOwner(), textView::setText);
+        final TextView textView = binding.textDataTitle;
+        dataViewModel.getText().observe(getViewLifecycleOwner(), textView::setText);
         return root;
     }
 
