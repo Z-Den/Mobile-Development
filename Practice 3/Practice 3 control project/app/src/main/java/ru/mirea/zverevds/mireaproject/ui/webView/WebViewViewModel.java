@@ -10,7 +10,7 @@ public class WebViewViewModel extends ViewModel {
 
     public WebViewViewModel() {
         mText = new MutableLiveData<>();
-        mText.setValue("This is gallery fragment");
+        mText.setValue("https://developer.android.com");
     }
 
     public LiveData<String> getText() {

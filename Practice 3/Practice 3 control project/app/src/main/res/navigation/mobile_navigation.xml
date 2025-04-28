@@ -12,14 +12,14 @@
         tools:layout="@layout/fragment_home" />
 
     <fragment
-        android:id="@+id/nav_gallery"
+        android:id="@+id/nav_web"
         android:name="ru.mirea.zverevds.mireaproject.ui.webView.WebViewFragment"
-        android:label="@string/menu_gallery"
+        android:label="@string/menu_web"
         tools:layout="@layout/fragment_web_view" />
 
     <fragment
-        android:id="@+id/nav_slideshow"
+        android:id="@+id/nav_data"
         android:name="ru.mirea.zverevds.mireaproject.ui.data.DataFragment"
-        android:label="@string/menu_slideshow"
+        android:label="@string/menu_data"
         tools:layout="@layout/fragment_data" />
 </navigation>

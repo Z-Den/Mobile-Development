@@ -4,6 +4,9 @@ import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.webkit.WebSettings;
+import android.webkit.WebView;
+import android.webkit.WebViewClient;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
@@ -14,6 +17,7 @@ import ru.mirea.zverevds.mireaproject.databinding.FragmentWebViewBinding;
 
 public class WebViewFragment extends Fragment {
 
+    private WebView webView;
     private FragmentWebViewBinding binding;
 
     public View onCreateView(@NonNull LayoutInflater inflater,
@@ -24,8 +28,13 @@ public class WebViewFragment extends Fragment {
         binding = FragmentWebViewBinding.inflate(inflater, container, false);
         View root = binding.getRoot();
 
-        final TextView textView = binding.textGallery;
-        webViewViewModel.getText().observe(getViewLifecycleOwner(), textView::setText);
+        webView = binding.webView;
+        WebSettings webSettings = webView.getSettings();
+        webSettings.setJavaScriptEnabled(true);
+        webView.setWebViewClient(new WebViewClient());
+
+        webViewViewModel.getText().observe(getViewLifecycleOwner(), url -> {webView.loadUrl(url);});
+
         return root;
     }
 

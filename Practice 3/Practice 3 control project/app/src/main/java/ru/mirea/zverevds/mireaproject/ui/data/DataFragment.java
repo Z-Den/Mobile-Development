@@ -24,8 +24,14 @@ public class DataFragment extends Fragment {
         binding = FragmentDataBinding.inflate(inflater, container, false);
         View root = binding.getRoot();
 
-        final TextView textView = binding.textDataTitle;
-        dataViewModel.getText().observe(getViewLifecycleOwner(), textView::setText);
+        final TextView textDataTitle = binding.textDataTitle;
+        final TextView textDesc1 = binding.textDataDescription;
+        final TextView textDesc2 = binding.textDataDescription2;
+
+        dataViewModel.getTitleText().observe(getViewLifecycleOwner(), textDataTitle::setText);
+        dataViewModel.getDesc1Text().observe(getViewLifecycleOwner(), textDesc1::setText);
+        dataViewModel.getDesc2Text().observe(getViewLifecycleOwner(), textDesc2::setText);
+
         return root;
     }
 
