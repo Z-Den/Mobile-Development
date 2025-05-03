@@ -1,6 +1,9 @@
 package ru.mirea.zverevds.thread;
 
 import android.os.Bundle;
+import android.util.Log;
+import android.widget.EditText;
+import android.widget.TextView;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -8,27 +11,63 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
+import ru.mirea.zverevds.thread.databinding.ActivityMainBinding;
+
 public class MainActivity extends AppCompatActivity {
+
+    private ActivityMainBinding binding;
+    EditText pairsEditText;
+    EditText daysEditText;
+    TextView textView;
+    int pairs;
+    int days;
+    int counter = 0;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        EdgeToEdge.enable(this);
-        setContentView(R.layout.activity_main);
-        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
-            Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
-            v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
-            return insets;
+        binding = ActivityMainBinding.inflate(getLayoutInflater());
+        setContentView(binding.getRoot());
+
+        textView = findViewById(R.id.textView);
+        pairsEditText = findViewById(R.id.pairsEditText);
+        daysEditText = findViewById(R.id.daysEditText);
+
+        binding.button.setOnClickListener(v -> {
+            new Thread(new Runnable() {
+                public void run() {
+
+                    int numberThread = counter++;
+                    Log.d("ThreadProject", String.format("Запущен поток № %d студентом группы " +
+                            "№ %s номер по списку № %d ", numberThread, "БСБО-07-22", 6));
+                    pairs = Integer.parseInt(pairsEditText.getText().toString());
+                    days = Integer.parseInt(daysEditText.getText().toString());
+                    String output = "Ваша средняя нагрузка составляет: " +
+                            String.valueOf((pairs * days) * 4) + " пар в месяц";
+                    runOnUiThread(() -> textView.setText(output));
+
+                    long endTime = System.currentTimeMillis() + 2 * 1000;
+                    while (System.currentTimeMillis() < endTime) {
+                        synchronized (this) {
+                            try {
+                                wait(endTime - System.currentTimeMillis());
+                                Log.d(MainActivity.class.getSimpleName(), "Endtime: " + endTime);
+                            } catch (Exception e) {
+                                throw new RuntimeException(e);
+                            }
+                        }
+                        Log.d("ThreadProject", "Выполнен поток № " + numberThread);
+                        String message = "Выполнен потоком № " + numberThread;
+                        runOnUiThread(() -> textView.append("\n" +message));
+                    }
+
+                }
+            }).start();
+
         });
     }
-    //TODO: 1. Создать новый проект с активностью, содержащей TextView и Button.
-    //TODO  2. Инициализацию графических компонентов осуществить с помощью «Binding».
-    //TODO  3. Посчитать в фоновом потоке среднее количество пар в день за период одного месяца.
-    //TODO  4. Отобразить результат в TextView.
-    //TODO  5. Запустить процесс при нажатии на кнопку.
-    //TODO  6. Вывести в лог сообщения о начале и окончании процесса.
-    //TODO  7. После запуска приложения на экране должно отобразиться имя потока до и после его изменения.
-    //TODO  8. В логах должно отображаться имя потока, отвечающего за выполнение процесса.
-    //TODO  9. В логах должно отображаться время, затраченное на выполнение процесса.
+
+
 
 }

@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace = "ru.mirea.zverevds.datathread"
+    namespace = "ru.mirea.zverevds.musicapp"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "ru.mirea.zverevds.datathread"
+        applicationId = "ru.mirea.zverevds.musicapp"
         minSdk = 26
         targetSdk = 35
         versionCode = 1
