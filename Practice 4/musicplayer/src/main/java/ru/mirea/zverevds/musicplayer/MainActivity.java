@@ -20,7 +20,9 @@ import ru.mirea.zverevds.musicplayer.databinding.ActivityMainBinding;
  * status bar and navigation/system bar) with user interaction.
  */
 
-//TODO: rewrite and remove unused code
+//TODO: 1. rewrite and remove unused code
+//TODO: 2. создать экран музыкального плеера с использованием «binding» для горизонтальной и портретной ориентации.
+
 public class MainActivity extends AppCompatActivity {
     /**
      * Whether or not the system UI should be auto-hidden after
