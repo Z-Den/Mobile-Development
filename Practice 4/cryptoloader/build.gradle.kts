@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace = "ru.mirea.zverevds.looper"
+    namespace = "ru.mirea.zverevds.cryptoloader"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "ru.mirea.zverevds.looper"
+        applicationId = "ru.mirea.zverevds.cryptoloader"
         minSdk = 26
         targetSdk = 35
         versionCode = 1
