@@ -95,3 +95,8 @@
 Итоговый результат решения можно увидеть на заключительном видео:
 
 ![mirea proj worker feature](https://github.com/user-attachments/assets/151e6d62-9b81-4ed7-b02e-9d8eb3b415f3)
+
+Итог работы фрагмента:
+
+![image](https://github.com/user-attachments/assets/63040305-2b6b-4ad5-868e-757e0ad2946f)
+
