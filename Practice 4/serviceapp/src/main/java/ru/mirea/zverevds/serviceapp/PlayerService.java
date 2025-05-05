@@ -46,7 +46,8 @@ public class PlayerService extends Service {
                 .setOnlyAlertOnce(true)
                 .setSound(null);
         int importance = NotificationManager.IMPORTANCE_LOW;
-        NotificationChannel channel = new NotificationChannel(CHANNEL_ID, "ZverevDS Notification", importance);
+        NotificationChannel channel = new NotificationChannel(CHANNEL_ID,
+                "ZverevDS Notification", importance);
         channel.setDescription("MIREA Channel");
         NotificationManagerCompat notificationManager = NotificationManagerCompat.from(this);
         notificationManager.createNotificationChannel(channel);

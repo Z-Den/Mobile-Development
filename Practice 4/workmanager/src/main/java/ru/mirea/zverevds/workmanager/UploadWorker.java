@@ -20,7 +20,7 @@ public class UploadWorker extends Worker {
     public Result doWork() {
         Log.d(TAG, "doWork: start");
         try {
-            TimeUnit.SECONDS.sleep(10);
+            TimeUnit.SECONDS.sleep(3);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }

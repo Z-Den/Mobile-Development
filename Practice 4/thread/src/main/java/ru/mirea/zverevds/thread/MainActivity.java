@@ -45,7 +45,7 @@ public class MainActivity extends AppCompatActivity {
                     days = Integer.parseInt(daysEditText.getText().toString());
                     String output = "Ваша средняя нагрузка составляет: " +
                             String.valueOf((pairs * days) * 4) + " пар в месяц\n" +
-                            "Или " + String.valueOf((pairs * days) * 4 / 30) + "пар в день в среднем";
+                            "Или " + String.valueOf((pairs * days) * 4 / 30) + " пар(ы) в день в среднем";
                     runOnUiThread(() -> textView.setText(output));
 
                     long endTime = System.currentTimeMillis() + 2 * 1000;

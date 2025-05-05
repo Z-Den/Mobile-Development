@@ -21,8 +21,13 @@ public class MainActivity extends AppCompatActivity {
         binding = ActivityMainBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
 
-
-
+        binding.pausePlayButton.setOnClickListener(v -> {
+            if (isPlay)
+                binding.pausePlayButton.setImageDrawable(getDrawable(R.drawable.play));
+            else
+                binding.pausePlayButton.setImageDrawable(getDrawable(R.drawable.pause));
+            isPlay = !isPlay;
+        });
 
         binding.likeButton.setOnClickListener(v -> {
             if (isLike)

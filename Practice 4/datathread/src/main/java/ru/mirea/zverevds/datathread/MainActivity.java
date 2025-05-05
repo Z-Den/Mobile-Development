@@ -60,11 +60,4 @@ public class MainActivity extends AppCompatActivity {
         });
         t.start();
     }
-
-    //TODO: 1. Требуется определить в какой последовательности происходит запуск процессов.
-    //TODO: 2. Изучите методы «runOnUiThread», «postDelayed», «post».
-    //TODO: 3. В «TextViwe» описать в чём различия между элементами и последовательность запуска.
-    //TODO: 4. У элемента «TextView» имеется возможность установки значений строк:
-    // android:maxLines="10"
-    // android:lines="10"
 }

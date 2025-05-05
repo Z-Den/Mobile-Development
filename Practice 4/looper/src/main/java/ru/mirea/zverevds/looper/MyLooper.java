@@ -12,8 +12,6 @@ public class MyLooper extends Thread {
     public MyLooper(Handler mainThreadHandler) {
         mainHandler = mainThreadHandler;
     }
-    //TODO Количество лет соответствует времени задержки. Результат вычисления
-    // осуществлять через Log.d.
     public void run() {
         Log.d("MyLooper", "run");
         Looper.prepare();
