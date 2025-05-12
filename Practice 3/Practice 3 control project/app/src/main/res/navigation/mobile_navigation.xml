@@ -29,4 +29,22 @@
         android:label="@string/menu_worker"
         tools:layout="@layout/fragment_worker"
         />
+
+    <fragment
+        android:id="@+id/nav_brightness"
+        android:name="ru.mirea.zverevds.mireaproject.ui.brightness.BrightnessFragment"
+        android:label="@string/menu_brightness"
+        tools:layout="@layout/fragment_brightness" />
+
+    <fragment
+        android:id="@+id/nav_camera"
+        android:name="ru.mirea.zverevds.mireaproject.ui.camera.CameraFragment"
+        android:label="@string/menu_camera"
+        tools:layout="@layout/fragment_camera" />
+
+    <fragment
+        android:id="@+id/nav_mic"
+        android:name="ru.mirea.zverevds.mireaproject.ui.mic.MicFragment"
+        android:label="@string/menu_mic"
+        tools:layout="@layout/fragment_mic" />
 </navigation>

@@ -2,8 +2,11 @@ package ru.mirea.zverevds.lesson5;
 
 import android.content.Context;
 import android.hardware.Sensor;
+import android.hardware.SensorEvent;
+import android.hardware.SensorEventListener;
 import android.hardware.SensorManager;
 import android.os.Bundle;
+import android.util.Log;
 import android.widget.ListView;
 import android.widget.SimpleAdapter;
 
@@ -17,7 +20,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity implements SensorEventListener {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -47,5 +50,32 @@ public class MainActivity extends AppCompatActivity {
                         new String[]{"Name", "Value"},
                         new int[]{android.R.id.text1, android.R.id.text2});
         listSensor.setAdapter(mHistory);
+        Sensor accelerometer = sensorManager.getDefaultSensor(Sensor.TYPE_ACCELEROMETER);
+        sensorManager.registerListener(this, accelerometer, SensorManager.SENSOR_DELAY_NORMAL);
+    }
+
+    @Override
+    public void onSensorChanged(SensorEvent event) {
+        if (event.sensor.getType() == Sensor.TYPE_ACCELEROMETER) {
+            float x = event.values[0];
+            float y = event.values[1];
+            float z = event.values[2];
+            // Пример: Вывод в лог
+            Log.d(MainActivity.class.getSimpleName(), "Accelerometer: x=" + x + " y=" + y + " z=" + z);
+            // Можно, например, определить, движется ли телефон
+        }
+    }
+    @Override
+    public void onAccuracyChanged(Sensor sensor, int accuracy) {
+        if (sensor.getType() == Sensor.TYPE_ACCELEROMETER) {
+            switch (accuracy) {
+                case SensorManager.SENSOR_STATUS_UNRELIABLE:
+                    Log.d("Sensor", "Акселерометр: ненадёжные данные");
+                    break;
+                case SensorManager.SENSOR_STATUS_ACCURACY_HIGH:
+                    Log.d("Sensor", "Акселерометр: высокая точность");
+                    break;
+            }
+        }
     }
 }
