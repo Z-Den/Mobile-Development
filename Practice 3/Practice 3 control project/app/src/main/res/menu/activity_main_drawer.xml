@@ -20,5 +20,17 @@
             android:id="@+id/nav_worker"
             android:icon="@drawable/worker"
             android:title="@string/menu_worker" />
+        <item
+            android:id="@+id/nav_brightness"
+            android:icon="@drawable/brightness"
+            android:title="@string/menu_brightness"  />
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/camera"
+            android:title="@string/menu_camera" />
+        <item
+            android:id="@+id/nav_mic"
+            android:icon="@drawable/mic"
+            android:title="@string/menu_mic" />
     </group>
 </menu>
