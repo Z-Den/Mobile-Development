@@ -86,4 +86,4 @@
 
 Полная работа вышеописанных модулей представлена ниже:
 
-***видосик***
+![mirea proj](https://github.com/user-attachments/assets/2537a9a5-68ab-439e-bba6-8f4ffd443268)
