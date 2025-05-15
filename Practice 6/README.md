@@ -57,5 +57,23 @@
 ### 5. Основы использования аппаратных возможностей
 В основном проекте добавлены:
 - Фрагмент "Профиль" с сохранением персональных данных пользователя
+  До ввода данных пользователя:
+
+![image](https://github.com/user-attachments/assets/be46430c-5ff2-46dd-a170-7b4a7e6c917a)
+![image](https://github.com/user-attachments/assets/da8df97b-a9cc-4594-9976-730eb3707ff7)
+
+После ввода данных пользователем:
+
+![image](https://github.com/user-attachments/assets/85558830-c6f1-4614-9b3c-83c624bbd2bb)
+![image](https://github.com/user-attachments/assets/8769563c-10ca-48bd-8980-25cbcf1c68c2)
+![image](https://github.com/user-attachments/assets/1bcd4997-f048-4b7c-93a5-f9253921e677)
+
 - Фрагмент "Работа с файлами" с функцией шифрования текстовых данных
 - Система диалоговых окон для взаимодействия с пользователем
+  Результат представлен далее в гифке:
+
+![Mirea Proj](https://github.com/user-attachments/assets/3dff2c1d-9b74-4a30-a39f-b9878754a659)
+
+
+
+
