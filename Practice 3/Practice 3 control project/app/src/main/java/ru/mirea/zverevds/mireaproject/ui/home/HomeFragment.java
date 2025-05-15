@@ -1,5 +1,7 @@
 package ru.mirea.zverevds.mireaproject.ui.home;
 
+import android.content.Context;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -15,6 +17,8 @@ import ru.mirea.zverevds.mireaproject.databinding.FragmentHomeBinding;
 public class HomeFragment extends Fragment {
 
     private FragmentHomeBinding binding;
+    private SharedPreferences sharedPref;
+
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
@@ -22,11 +26,13 @@ public class HomeFragment extends Fragment {
                 new ViewModelProvider(this).get(HomeViewModel.class);
 
         binding = FragmentHomeBinding.inflate(inflater, container, false);
+        sharedPref = requireActivity().getSharedPreferences("profile_prefs", Context.MODE_PRIVATE);
+
         View root = binding.getRoot();
 
         final TextView greeting = binding.textGreetings;
         final TextView owner = binding.textOwner;
-        homeViewModel.getGreetingText().observe(getViewLifecycleOwner(), greeting::setText);
+        homeViewModel.getGreetingText(sharedPref.getString("name", "")).observe(getViewLifecycleOwner(), greeting::setText);
         homeViewModel.getOwnerText().observe(getViewLifecycleOwner(), owner::setText);
         return root;
     }
