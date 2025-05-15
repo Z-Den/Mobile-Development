@@ -6,6 +6,13 @@
     app:startDestination="@+id/nav_home">
 
     <fragment
+        android:id="@+id/nav_profile"
+        android:name="ru.mirea.zverevds.mireaproject.ui.profile.ProfileFragment"
+        android:label="@string/menu_profile"
+        tools:layout="@layout/fragment_profile"
+        />
+
+    <fragment
         android:id="@+id/nav_home"
         android:name="ru.mirea.zverevds.mireaproject.ui.home.HomeFragment"
         android:label="@string/menu_home"
@@ -47,4 +54,10 @@
         android:name="ru.mirea.zverevds.mireaproject.ui.mic.MicFragment"
         android:label="@string/menu_mic"
         tools:layout="@layout/fragment_mic" />
+
+    <fragment
+        android:id="@+id/nav_file"
+        android:name="ru.mirea.zverevds.mireaproject.ui.files.FilesFragment"
+        android:label="@string/menu_file"
+        tools:layout="@layout/fragment_files" />
 </navigation>
