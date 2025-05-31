@@ -23,3 +23,4 @@ rootProject.name = "Lesson7"
 include(":app")
 include(":timeservices")
 include(":httpurlconnection")
+include(":firebaseauth")
