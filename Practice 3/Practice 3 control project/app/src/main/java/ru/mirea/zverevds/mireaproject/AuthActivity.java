@@ -1,8 +1,7 @@
-package ru.mirea.zverevds.firebaseauth;
+package ru.mirea.zverevds.mireaproject;
 
+import android.content.Intent;
 import android.os.Bundle;
-import android.util.Log;
-import android.view.View;
 import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -10,24 +9,23 @@ import androidx.appcompat.app.AppCompatActivity;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 
-import ru.mirea.zverevds.firebaseauth.databinding.ActivityMainBinding;
+import ru.mirea.zverevds.mireaproject.databinding.ActivityAuthBinding;
 
-public class MainActivity extends AppCompatActivity {
-    private ActivityMainBinding binding;
+public class AuthActivity extends AppCompatActivity {
+    private ActivityAuthBinding binding;
     private FirebaseAuth mAuth;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        binding = ActivityMainBinding.inflate(getLayoutInflater());
+
+        binding = ActivityAuthBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
+
 
         // Инициализация Firebase Auth
         mAuth = FirebaseAuth.getInstance();
-
-        // Настройка обработчиков кнопок
-        binding.emailPasswordButtons.setVisibility(View.VISIBLE);
-        binding.signedInButtons.setVisibility(View.GONE);
 
         binding.createAccountButton.setOnClickListener(v -> {
             String email = binding.emailField.getText().toString();
@@ -40,17 +38,6 @@ public class MainActivity extends AppCompatActivity {
             String password = binding.passwordField.getText().toString();
             signIn(email, password);
         });
-
-        binding.signOutButton.setOnClickListener(v -> signOut());
-        binding.verifyEmailButton.setOnClickListener(v -> sendEmailVerification());
-    }
-
-    @Override
-    protected void onStart() {
-        super.onStart();
-        // Проверяем авторизацию при запуске
-        FirebaseUser currentUser = mAuth.getCurrentUser();
-        updateUI(currentUser);
     }
 
     private void createAccount(String email, String password) {
@@ -60,12 +47,12 @@ public class MainActivity extends AppCompatActivity {
                 .addOnCompleteListener(this, task -> {
                     if (task.isSuccessful()) {
                         FirebaseUser user = mAuth.getCurrentUser();
-                        updateUI(user);
                         sendEmailVerification();
+                        checkUser(user);
+
                     } else {
-                        Toast.makeText(MainActivity.this, "Ошибка регистрации",
+                        Toast.makeText(AuthActivity.this, "Ошибка регистрации",
                                 Toast.LENGTH_SHORT).show();
-                        updateUI(null);
                     }
                 });
     }
@@ -77,35 +64,26 @@ public class MainActivity extends AppCompatActivity {
                 .addOnCompleteListener(this, task -> {
                     if (task.isSuccessful()) {
                         FirebaseUser user = mAuth.getCurrentUser();
-                        updateUI(user);
+                        checkUser(user);
                     } else {
-                        Toast.makeText(MainActivity.this, "Ошибка входа",
+                        Toast.makeText(AuthActivity.this, "Ошибка входа",
                                 Toast.LENGTH_SHORT).show();
-                        updateUI(null);
                     }
                 });
     }
 
-    private void signOut() {
-        mAuth.signOut();
-        updateUI(null);
-    }
-
     private void sendEmailVerification() {
-        binding.verifyEmailButton.setEnabled(false);
-
         final FirebaseUser user = mAuth.getCurrentUser();
+
         if (user != null) {
             user.sendEmailVerification()
                     .addOnCompleteListener(this, task -> {
-                        binding.verifyEmailButton.setEnabled(true);
-
                         if (task.isSuccessful()) {
-                            Toast.makeText(MainActivity.this,
+                            Toast.makeText(AuthActivity.this,
                                     "Письмо подтверждения отправлено на " + user.getEmail(),
                                     Toast.LENGTH_SHORT).show();
                         } else {
-                            Toast.makeText(MainActivity.this,
+                            Toast.makeText(AuthActivity.this,
                                     "Не удалось отправить письмо подтверждения",
                                     Toast.LENGTH_SHORT).show();
                         }
@@ -135,26 +113,10 @@ public class MainActivity extends AppCompatActivity {
         return valid;
     }
 
-    private void updateUI(FirebaseUser user) {
+    private void checkUser(FirebaseUser user) {
         if (user != null) {
-            // Пользователь авторизован
-            binding.statusTextView.setText(getString(R.string.emailpassword_status_fmt,
-                    user.getEmail(), user.isEmailVerified()));
-            binding.detailTextView.setText(getString(R.string.firebase_status_fmt, user.getUid()));
-
-            binding.emailPasswordButtons.setVisibility(View.GONE);
-            binding.emailPasswordFields.setVisibility(View.GONE);
-            binding.signedInButtons.setVisibility(View.VISIBLE);
-
-            binding.verifyEmailButton.setEnabled(!user.isEmailVerified());
-        } else {
-            // Пользователь не авторизован
-            binding.statusTextView.setText(R.string.signed_out);
-            binding.detailTextView.setText(null);
-
-            binding.emailPasswordButtons.setVisibility(View.VISIBLE);
-            binding.emailPasswordFields.setVisibility(View.VISIBLE);
-            binding.signedInButtons.setVisibility(View.GONE);
+            Intent intent = new Intent(this, MainActivity.class);
+            startActivity(intent);
         }
     }
 }
