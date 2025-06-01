@@ -7,5 +7,5 @@
 ### [Четвёратя работа](https://github.com/Z-Den/Mobile-Development/blob/main/Practice%204/README.md)
 ### [Пятая работа](https://github.com/Z-Den/Mobile-Development/blob/main/Practice%205/README.md)
 ### [Шестая работа](https://github.com/Z-Den/Mobile-Development/blob/main/Practice%206/README.md)
-### [Сельмая работа - WIP]()
-### [Восьмая работа - WIP]()
+### [Сельмая работа](https://github.com/Z-Den/Mobile-Development/blob/main/Practice%207/README.md)
+### [Восьмая работа - WIP?]()
