@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "155789154914",
+    "project_id": "zverevmireaproject",
+    "storage_bucket": "zverevmireaproject.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:155789154914:android:0bb7b3abbbf64ae6434f3b",
+        "android_client_info": {
+          "package_name": "ru.mirea.zverevds.mireaproject"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCc4PruVJohkV9uoozhONkMFIx8U7ICzFw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
