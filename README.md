@@ -1,4 +1,4 @@
-# Мобильная разработка - 2024/25 год
+# Мобильная разработка - 2024/25 год (1-ый семестр) 
 ## Зверев Д.С. БСБО-07-22
 
 ### [Первая работа](https://github.com/Z-Den/Mobile-Development/blob/main/Practice%201/README.md)
@@ -8,4 +8,7 @@
 ### [Пятая работа](https://github.com/Z-Den/Mobile-Development/blob/main/Practice%205/README.md)
 ### [Шестая работа](https://github.com/Z-Den/Mobile-Development/blob/main/Practice%206/README.md)
 ### [Сельмая работа](https://github.com/Z-Den/Mobile-Development/blob/main/Practice%207/README.md)
-### [Восьмая работа - WIP?]()
+---
+# Мобильная разработка - 2025/26 год (2-ой семестр)
+### [Первая работа]()
+### [Вторая работа]()
