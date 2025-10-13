@@ -1,6 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Управление профилем"
+        android:textSize="24sp"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/change_password_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Изменить пароль"/>
+
+    <Button
+        android:id="@+id/notify_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Настроить уведомления"/>
+
+    <Button
+        android:id="@+id/delete_account_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Удалить аккаунт"/>
+</LinearLayout>

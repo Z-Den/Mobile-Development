@@ -4,7 +4,7 @@ plugins {
 
 android {
     namespace = "ru.mirea.zverevds.fungifinder"
-    compileSdk = 35
+    compileSdk = 36
 
     defaultConfig {
         applicationId = "ru.mirea.zverevds.fungifinder"
