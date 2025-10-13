@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
     }
     public void onClickOpenBrowser(View view) {
         Intent intent = new Intent(Intent.ACTION_VIEW);
-        intent.setData(Uri.parse("http://developer.android.com"));
+        intent.setData(Uri.parse("https://www.mirea.ru/"));
         startActivity(intent);
     }
     public void onClickOpenMaps(View view) {

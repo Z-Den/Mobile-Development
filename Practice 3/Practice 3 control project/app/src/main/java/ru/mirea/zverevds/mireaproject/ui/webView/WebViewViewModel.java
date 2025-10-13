@@ -10,7 +10,7 @@ public class WebViewViewModel extends ViewModel {
 
     public WebViewViewModel() {
         mText = new MutableLiveData<>();
-        mText.setValue("https://developer.android.com");
+        mText.setValue("https://example.com");
     }
 
     public LiveData<String> getText() {
