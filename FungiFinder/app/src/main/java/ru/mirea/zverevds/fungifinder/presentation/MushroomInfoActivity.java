@@ -23,8 +23,8 @@ public class MushroomInfoActivity extends AppCompatActivity {
         MushroomRepositoryImpl repo = new MushroomRepositoryImpl();
         GetMushroomInfoByID useCase = new GetMushroomInfoByID(repo);
         Mushroom info = useCase.execute(1);
-        nameView.setText(info.name);
-        edibilityView.setText(info.edibility);
-        descView.setText(info.description);
+        nameView.setText(info.getName());
+        edibilityView.setText(info.getEdibility());
+        descView.setText(info.getDescription());
     }
 }

@@ -42,7 +42,7 @@ public class SearchActivity extends AppCompatActivity {
 
         ArrayAdapter<String> adapter = new ArrayAdapter<>(this,
                 android.R.layout.simple_list_item_1,
-                results.stream().map(m -> m.name + " (" + m.edibility + ")").toArray(String[]::new));
+                results.stream().map(m -> m.getName() + " (" + m.getEdibility() + ")").toArray(String[]::new));
         resultsList.setAdapter(adapter);
     }
 }

@@ -21,4 +21,5 @@ dependencyResolutionManagement {
 
 rootProject.name = "FungiFinder"
 include(":app")
- 
+include(":data")
+include(":domain")

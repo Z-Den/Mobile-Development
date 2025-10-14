@@ -16,10 +16,10 @@ public class SearchMushroomByName {
     public List<Mushroom> execute(String query) {
         List<Mushroom> results = new ArrayList<>();
         if (query.toLowerCase().contains("шамп")) {
-            results.add(new Mushroom(1, "Шампиньон", "Съедобный", "Описание шампиньона"));
+            results.add(new Mushroom(1, "Шампиньон", true, "Описание шампиньона"));
         }
         if (query.toLowerCase().contains("мух")) {
-            results.add(new Mushroom(2, "Мухомор", "Ядовитый", "Описание мухомора"));
+            results.add(new Mushroom(2, "Мухомор", false, "Описание мухомора"));
         }
         return results;
     }

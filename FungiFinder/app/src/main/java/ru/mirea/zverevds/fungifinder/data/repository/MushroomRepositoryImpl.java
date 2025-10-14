@@ -10,14 +10,14 @@ public class MushroomRepositoryImpl implements MushroomRepository {
 
     @Override
     public Mushroom getMushroomInfoById(int id) {
-        return new Mushroom(id, "Тестовый гриб", "Неизвестно", "Тестовое описание");
+        return new Mushroom(id, "Тестовый гриб", null, "Тестовое описание");
     }
 
     @Override
     public List<Mushroom> getAllMushroomsInfo() {
         List<Mushroom> list = new ArrayList<>();
-        list.add(new Mushroom(1, "Шампиньон", "Съедобный", "Описание 1"));
-        list.add(new Mushroom(2, "Мухомор", "Ядовитый", "Описание 2"));
+        list.add(new Mushroom(1, "Шампиньон", true, "Описание 1"));
+        list.add(new Mushroom(2, "Мухомор", false, "Описание 2"));
         return list;
     }
 
@@ -25,10 +25,10 @@ public class MushroomRepositoryImpl implements MushroomRepository {
     public List<Mushroom> searchMushroomsByName(String name) {
         List<Mushroom> results = new ArrayList<>();
         if (name.toLowerCase().contains("шамп")) {
-            results.add(new Mushroom(1, "Шампиньон", "Съедобный", "Описание"));
+            results.add(new Mushroom(1, "Шампиньон", true, "Описание"));
         }
         if (name.toLowerCase().contains("мух")) {
-            results.add(new Mushroom(2, "Мухомор", "Ядовитый", "Описание"));
+            results.add(new Mushroom(2, "Мухомор", false, "Описание"));
         }
         return results;
     }

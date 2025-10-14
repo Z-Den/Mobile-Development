@@ -11,6 +11,6 @@ public class GetMushroomInfoByID {
     }
 
     public Mushroom execute(int id) {
-        return new Mushroom(id, "Тестовый гриб", "Неизвестно", "Тестовое описание");
+        return new Mushroom(id, "Тестовый гриб", false, "Тестовое описание");
     }
 }
