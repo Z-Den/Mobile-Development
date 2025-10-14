@@ -10,5 +10,5 @@
 ### [Сельмая работа](https://github.com/Z-Den/Mobile-Development/blob/main/Practice%207/README.md)
 ---
 # Мобильная разработка - 2025/26 год (2-ой семестр)
-### [Первая работа]()
-### [Вторая работа]()
+### [Первая работа](https://github.com/Z-Den/Mobile-Development/blob/main/FungiFinder/README.md)
+### [Вторая работа](https://github.com/Z-Den/Mobile-Development/blob/main/FungiFinder/READMEtoo.md)
