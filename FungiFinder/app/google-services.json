@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "355612831713",
+    "project_id": "fungi-finder-app",
+    "storage_bucket": "fungi-finder-app.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:355612831713:android:c01cca90519f57677f2ca0",
+        "android_client_info": {
+          "package_name": "ru.mirea.zverevds.fungifinder"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC14EPu5WhfB7gRKxblHnKNCY9-tvWKtbY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
