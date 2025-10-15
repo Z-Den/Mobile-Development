@@ -10,7 +10,7 @@ import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 
 import ru.mirea.zverevds.fungifinder.R;
-import ru.mirea.zverevds.fungifinder.domain.usecases.mushroom.IdentifyMushroomByPhoto;
+import ru.mirea.zverevds.domain.usecases.mushroom.IdentifyMushroomByPhoto;
 
 public class IdentificationActivity extends AppCompatActivity {
 

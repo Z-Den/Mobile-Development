@@ -8,9 +8,9 @@ import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 
 import ru.mirea.zverevds.fungifinder.R;
-import ru.mirea.zverevds.fungifinder.data.repository.UserRepositoryImpl;
-import ru.mirea.zverevds.fungifinder.domain.usecases.user.LoginUser;
-import ru.mirea.zverevds.fungifinder.domain.usecases.user.RegisterUser;
+import ru.mirea.zverevds.data.repository.UserRepositoryImpl;
+import ru.mirea.zverevds.domain.usecases.user.LoginUser;
+import ru.mirea.zverevds.domain.usecases.user.RegisterUser;
 
 public class AuthActivity extends AppCompatActivity {
     @Override

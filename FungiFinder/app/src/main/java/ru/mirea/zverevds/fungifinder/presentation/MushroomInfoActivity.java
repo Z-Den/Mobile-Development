@@ -6,9 +6,9 @@ import android.widget.TextView;
 import androidx.appcompat.app.AppCompatActivity;
 
 import ru.mirea.zverevds.fungifinder.R;
-import ru.mirea.zverevds.fungifinder.data.repository.MushroomRepositoryImpl;
-import ru.mirea.zverevds.fungifinder.domain.models.Mushroom;
-import ru.mirea.zverevds.fungifinder.domain.usecases.mushroom.GetMushroomInfoByID;
+import ru.mirea.zverevds.data.repository.MushroomRepositoryImpl;
+import ru.mirea.zverevds.domain.models.Mushroom;
+import ru.mirea.zverevds.domain.usecases.mushroom.GetMushroomInfoByID;
 
 public class MushroomInfoActivity extends AppCompatActivity {
     @Override

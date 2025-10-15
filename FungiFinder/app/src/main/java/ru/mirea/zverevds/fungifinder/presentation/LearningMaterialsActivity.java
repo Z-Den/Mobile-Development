@@ -9,9 +9,9 @@ import androidx.appcompat.app.AppCompatActivity;
 import java.util.List;
 
 import ru.mirea.zverevds.fungifinder.R;
-import ru.mirea.zverevds.fungifinder.data.repository.UserRepositoryImpl;
-import ru.mirea.zverevds.fungifinder.domain.repository.UserRepository;
-import ru.mirea.zverevds.fungifinder.domain.usecases.user.GetLearningMaterials;
+import ru.mirea.zverevds.data.repository.UserRepositoryImpl;
+import ru.mirea.zverevds.domain.repository.UserRepository;
+import ru.mirea.zverevds.domain.usecases.user.GetLearningMaterials;
 
 public class LearningMaterialsActivity extends AppCompatActivity {
     @Override

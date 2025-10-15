@@ -11,9 +11,9 @@ import androidx.appcompat.app.AppCompatActivity;
 import java.util.List;
 
 import ru.mirea.zverevds.fungifinder.R;
-import ru.mirea.zverevds.fungifinder.data.repository.MushroomRepositoryImpl;
-import ru.mirea.zverevds.fungifinder.domain.models.Mushroom;
-import ru.mirea.zverevds.fungifinder.domain.usecases.mushroom.SearchMushroomByName;
+import ru.mirea.zverevds.data.repository.MushroomRepositoryImpl;
+import ru.mirea.zverevds.domain.models.Mushroom;
+import ru.mirea.zverevds.domain.usecases.mushroom.SearchMushroomByName;
 
 public class SearchActivity extends AppCompatActivity {
 
