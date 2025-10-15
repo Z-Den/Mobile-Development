@@ -1,5 +1,6 @@
 package ru.mirea.zverevds.fungifinder.presentation;
 
+import android.content.Context;
 import android.os.Bundle;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
@@ -9,8 +10,10 @@ import androidx.appcompat.app.AppCompatActivity;
 import java.util.List;
 
 import ru.mirea.zverevds.fungifinder.R;
-import ru.mirea.zverevds.fungifinder.data.repository.MushroomRepositoryImpl;
-import ru.mirea.zverevds.fungifinder.domain.repository.MushroomRepository;
+import ru.mirea.zverevds.fungifinder.data.repository.FindingRepositoryImpl;
+import ru.mirea.zverevds.fungifinder.data.storage.FindingStorage;
+import ru.mirea.zverevds.fungifinder.data.storage.sharedpref.SharedPrefFindingStorage;
+import ru.mirea.zverevds.fungifinder.domain.models.Finding;
 import ru.mirea.zverevds.fungifinder.domain.usecases.mushroom.GetFindingsCollection;
 
 public class FindingsCollectionActivity extends AppCompatActivity {
@@ -20,13 +23,14 @@ public class FindingsCollectionActivity extends AppCompatActivity {
         setContentView(R.layout.activity_findings_collection);
 
         ListView listView = findViewById(R.id.findings_list);
-        MushroomRepositoryImpl repo = new MushroomRepositoryImpl();
+        FindingStorage sharedFindingStorage = new SharedPrefFindingStorage(this);
+        FindingRepositoryImpl repo = new FindingRepositoryImpl(sharedFindingStorage);
         GetFindingsCollection useCase = new GetFindingsCollection(repo);
-        List<MushroomRepository.Finding> findings = useCase.execute();
+        List<Finding> findings = useCase.execute();
 
         ArrayAdapter<String> adapter = new ArrayAdapter<>(this,
                 android.R.layout.simple_list_item_1,
-                findings.stream().map(f -> f.mushroomName + " - " + f.location).toArray(String[]::new));
+                findings.stream().map(f -> f.getMushroomName() + " - " + f.getLocation()).toArray(String[]::new));
         listView.setAdapter(adapter);
     }
 }

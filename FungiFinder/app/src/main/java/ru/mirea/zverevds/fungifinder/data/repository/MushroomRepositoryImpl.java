@@ -32,27 +32,4 @@ public class MushroomRepositoryImpl implements MushroomRepository {
         }
         return results;
     }
-
-    @Override
-    public boolean saveFindingToCollection(Finding finding) {
-        return true;
-    }
-
-    @Override
-    public boolean editFindingById(int id, String newLocation) {
-        return true;
-    }
-
-    @Override
-    public boolean deleteFindingById(int id) {
-        return true;
-    }
-
-    @Override
-    public List<Finding> getFindingsCollection() {
-        List<Finding> findings = new ArrayList<>();
-        findings.add(new Finding(1, "Шампиньон", "Лес near home", "photo1.jpg"));
-        findings.add(new Finding(2, "Мухомор", "Парк", "photo2.jpg"));
-        return findings;
-    }
 }

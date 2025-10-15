@@ -1,5 +1,6 @@
 package ru.mirea.zverevds.fungifinder.domain.usecases.mushroom;
 
+import ru.mirea.zverevds.fungifinder.domain.models.Finding;
 import ru.mirea.zverevds.fungifinder.domain.repository.MushroomRepository;
 
 public class SaveFindingToCollection {
@@ -9,7 +10,7 @@ public class SaveFindingToCollection {
         this.repository = repository;
     }
 
-    public boolean execute(MushroomRepository.Finding finding) {
+    public boolean execute(Finding finding) {
         return true;
     }
 }
